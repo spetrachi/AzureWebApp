@@ -8,7 +8,6 @@ public class BaseController {
 
     @RequestMapping("/")
         public String showHome(Model model) {
-            model.addAttribute("user", user);
             return "home.html";
         }
 }
